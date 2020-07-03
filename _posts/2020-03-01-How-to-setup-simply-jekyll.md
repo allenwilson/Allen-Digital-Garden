@@ -5,6 +5,12 @@ tags: jekyll theme
 
 This is going to be a super simple post about how to setup and use this theme for your own website.
 
+Test Video!
+
+
+
+{% Video ChronosversusKairos.mp4 500 400 %}
+
 ## Usage
 
 {:.boxit}
