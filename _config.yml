@@ -1,12 +1,12 @@
 title: Simply Jekyll
-name: John Doe
+name: Allen Wilson
 user_description: Programmer (Interested in Philosophy and Math)
 notes_url: "https://simply-jekyll.netlify.app"
 profile_pic: /assets/img/profile.png
 favicon: /assets/img/favicon.png
-copyright_name: John Doe
+copyright_name: Allen Wilson
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://simply-jekyll.netlify.app/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://hungrybreadelevator.netlify.app/" # the base hostname & protocol for your site, e.g. http://example.com
 encoding: utf-8
 
 # Build settings
