@@ -26,21 +26,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "93f16e4e13850a63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-06-22-Test-Note.md.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-06-22-Test-Note.md.md",
+                "file": "2023-06-22-TEST-Post.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-06-22-Test-Note.md.md",
+                "file": "2023-06-22-TEST-Post.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-06-22-Test-Note.md.md"
+                "file": "2023-06-22-TEST-Post.md.md"
               }
             }
           }
@@ -167,9 +155,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "93f16e4e13850a63",
+  "active": "72776e9c8ca6231c",
   "lastOpenFiles": [
-    "2023-06-22-TEST-Post.md.md",
-    "2023-06-22-Test-Note.md.md"
+    "2023-06-22-Test-Note.md.md",
+    "2023-06-22-TEST-Post.md.md"
   ]
 }
