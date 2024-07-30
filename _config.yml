@@ -1,48 +1,43 @@
-title: Hungry Bread Elevator
-name: hungrybreadelevator
-user_description: Right now, writing about blood theology. Also some poetry.
-notes_url: "https://hungrybreadelevator.netlify.app"
-profile_pic: /assets/img/profile.png
-favicon: /assets/img/favicon.png
-copyright_name: Allen Wilson
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://hungrybreadelevator.netlify.app/" # the base hostname & protocol for your site, e.g. http://example.com
-encoding: utf-8
+title:               My digital garden
+include:             ['_pages']
+exclude:             ['_includes/notes_graph.json']
+# You may need to change the base URL depending on your deploy configuration.
+baseurl:             ''
 
-# Build settings
-theme: null
+# If you are using a host that cannot resolve URLs that do
+# not end with .html (such as Neocities), set this to 'true'.
+use_html_extension:  false
+
+# Set to `true` to open non-internal links in new tabs, or
+# set to `false` to open non-internal links in current tab.
+open_external_links_in_new_tab: true
+
+# Set to `true` to replace tweet URLs with Twitter embeds.
+# Note that doing so will negatively the reader's privacy
+# as their browser will communicate with Twitter's servers.
+embed_tweets: false
+
+permalink:           pretty
+relative_permalinks: false
+
 plugins:
-  - jekyll-feed 
-  - jekyll-sitemap 
-
-markdown: kramdown
-
-kramdown:
-  input: GFM
-  hard_wrap: false
-  math_engine: mathjax
-  smart_quotes: ["apos", "apos", "quot", "quot"]
-  syntax_highlighter: rouge
+  - jekyll-last-modified-at
 
 sass:
-  style: compressed
+  sass_dir:          _sass
+  style:            :compressed
 
 collections:
-    notes:
-      output: true
-      permalink: /notes/:title
+  notes:
+    output: true
+    permalink: /:slug
 
 defaults:
   - scope:
-      path: ""
-      type: posts
+      path: "**/*"
     values:
-      layout: post
-      permalink: /posts/:title
-      content-type: post
+      layout: "default"
   - scope:
-      path: ""
-      type: notes
+      path: "_notes/**/*.md"
     values:
-      layout: post
-      content-type: notes
+      layout: "note"
